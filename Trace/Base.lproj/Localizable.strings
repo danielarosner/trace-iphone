@@ -1,0 +1,59 @@
+/* 
+  trace.strings
+  TRACE_v1
+
+  Created by Steve Cahill on 2/3/15.
+  Copyright (c) 2015 University of Washington. All rights reserved.
+*/
+"Yes" = "Yes";
+"No" = "No";
+"Error" = "Error";
+"Warning" = "Warning";
+"ConsentNotCheckedMsg" = "Please select the agree checkbox at the bottom to use Trace Map.";
+
+"LocationServiceDisabledTitle" = "Location Service Disabled";
+"LocationServiceDisabledMsg" = "Please go to Settings->Trace and set Location to Always";
+"LocationServiceRestrictedMsg" = "Location service not allowed. You can check Settings->Trace and set Location to Always if you have access.";
+
+"ShareTrace_MissingTitle" = "Please enter a title for this trace.";
+"ShareTrace_MissingDescription" = "Please enter a description for this trace.";
+"ShareTrace_MissingRecipient" = "Please enter an email or Username of the Trace user you want to send this trace.";
+"ShareTrace_RecipientsNotFound" = "The recipient could not be found.";
+"ShareTrace_Error" = "Error saving the trace drawing.\nDetails: @%";
+
+"Login_UsernameEmpty" = "Please enter your Username.";
+"Login_PasswordEmpty" = "Please enter your Password.";
+"Login_Failed" = "Login failed";
+"SignUp_Password2Empty" = "Please enter your Password again.";
+"SignUp_PasswordsNotSame" = "The Passwords do not match.";
+"SignUp_EmailEmpty" = "Please enter your email.";
+"SignUp_Failed" = "Sign up failed";
+"ResetPassword_Failed" = "Reset Password Failed";
+
+"PickTrace_Loading" = "Traces loading...";
+"PickTrace_NoTraces" = "no traces available";
+"PickTrace_RequestOne" = "Ask a friend to send you a trace,\nor send one to yourself by selecting Draw from the Home screen.";
+
+"Users_NoUserToAdd" = "Please enter a Username or email of the recipient of your trace map.";
+"Users_UnknownUserTitle" = "Unknown User";
+"Users_AtLeastOneUser" = "You must have at least one recipient for your trace.\nIt can be yourself.";
+"Users_UnknownUser" = "A Trace Map user does not exist with that username.\n\nTry using their email.\nNote that usernames are case sensitive.";
+"Users_UnknownUser_SendEmail" = "A Trace Map user does not exist with that email or username.\n\nWould you like to send a request to %@ to try Trace Map with your trace?";
+"Users_UserInList" = "The User is already in the recipients list.";
+"Users_SingleUserInfo" = "1 person will receive this trace map";
+"Users_CountInfo" = "%lu people will receive this trace map";
+"Users_TableEmailPendingMsg" = "invitation email will be presented when done";
+"Users_TraceUsers_SectionHeader" = "Trace Map Users";
+"Users_UnknownUsers_SectionHeader" = "Unknown Emails";
+
+
+"Invitation_Subject" = "Trace Map Invitation";
+// https://linkmaker.itunes.apple.com/us/
+"Invitation_iOSApp" = "https://itunes.apple.com/us/app/m.uw/id328228461?mt=8";      // Correct when posted to iTunes!
+
+"Invitation_Body" = "A trace has been created for you to walk by %@.\nTry it by downloading the iPhone application from:\n  <a href=\"%@\"> <img src=\"https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png\"; alt=\"Trace Map App Store link\";width:135px;height:40px> </a>";
+ 
+"Invitation_EmailNotAvailable" = "Please set up email on your device to send invitations to people not yet using Trace Map.";
+
+"Terms" = "Pebble today revealed the Pebble Time, a new smartwatch in its line of smart wearable devices that includes the company's first color-based display and introduces a thinner, more ergonomic design than its predecessor./nLaunched on Kickstarter earlier this morning, Pebble promises that power consumption of the new device is greatly lowered thanks to the e-paper display, giving the Pebble Time a battery life of up to 7 days. The company also introduced a new voice-control feature to send voice replies or take notes using a select few compatible apps. The feature is a bit more full-fledged on Android, and on iOS currently will only work with Gmail notifications.\n\nPebble Time\nThe Pebble Time also features a new curved design to ergonomically conform to any wrist, and is about 20 percent slimmer than the original Pebble. The company says the lens is made of scratch-resistant Gorilla Glass with a stainless steel bezel, enabling a water-resistant device that Pebble still warns from being fully submerged.\n\nPebble Time comes with a soft silicone band in the color options of black, white, or red, but the company says any 22mm watch band will fit the new device. The watch also lives up to its name thanks to the chronological curating of multiple apps into one new feature called \"Timeline.\" With past, present, and future buttons residing on the right side of the device, users can easily scroll through completed tasks and events, see what they need to be doing now, and check reminders for the future. This is the new app menu, featuring new app faces with glanceable content. With timeline we've also created a system that dynamically loads and caches apps as needed, letting you access as many apps as you need.\nAs with all Pebble software, we’ve built an open platform. You can allow apps and developers to add ‘pins’ to your timeline, so you can keep track of things like upcoming events, sports, weather, traffic, travel plans, pizza specials and more.\nPebble has been undeterred by the announcement and imminent launch of the Apple Watch, poking fun at Apple's overly enthusiastic unveiling of the device and pointing out their superior battery life and entry-level pricing in the process. Most recently the company claimed its new 2015 products would focus less on apps and more on something customers have never seen.\nThose interested can visit the Pebble Time's Kickstarter page to claim their own rewards. The lowest pledge for the device begins at $159 for one watch with limited early-bird pricing, and ramps up from there. Retail pricing will be set at $199. The Pebble Time's $500,000 Kickstarter goal, which launched at 7:00 AM PT, reached its goal in just under twenty minutes of the campaign going live. As with most projects on the site, there are 31 days left to join in on the campaign.";
+

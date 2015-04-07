@@ -1,0 +1,15 @@
+/* 
+  trace.strings
+  TRACE_v1
+
+  Created by Steve Cahill on 2/3/15.
+  Copyright (c) 2015 University of Washington. All rights reserved.
+*/
+"LocationServiceDisabledTitle" = "Location Service Disabled";
+"LocationServiceDisabledMsg" = "Please go to Settings->Trace and set Location to Always";
+"LocationServiceRestrictedMsg" = "Location service not allowed. You can check Settings->Trace and set Location to Always if you have access.";
+
+"ShareTrace_MissingTitle" = "Please enter a title for this trace.";
+"ShareTrace_MissingDescription" = "Please enter a description for this trace.";
+"ShareTrace_MissingRecipient" = "Please enter an email or Username of the Trace user you want to send this trace.";
+
