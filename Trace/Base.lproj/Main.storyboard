@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="s4l-0r-pwN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="s4l-0r-pwN">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -149,8 +149,11 @@
                                     <outlet property="delegate" destination="d4Y-74-fzY" id="1uF-n8-m5G"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kw7-kn-eoW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kw7-kn-eoW">
                                 <rect key="frame" x="104" y="515" width="111" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="uUO-1q-uPc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="New to Trace?">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -187,6 +190,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.15294117647058825" green="0.71372549019607845" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1bw-d8-U4q" firstAttribute="top" secondItem="Kw7-kn-eoW" secondAttribute="bottom" constant="20" id="2N0-EW-vmq"/>
+                            <constraint firstAttribute="centerX" secondItem="Kw7-kn-eoW" secondAttribute="centerX" id="sF7-kE-4xj"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VUx-jq-MQY">
                         <barButtonItem key="backBarButtonItem" title="Login" id="9jy-XE-EcW"/>
@@ -946,7 +953,7 @@
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ab3-5Z-JDO">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ab3-5Z-JDO">
                                 <rect key="frame" x="80" y="518" width="160" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -957,7 +964,7 @@
                                     <action selector="onTermsOfUse:" destination="8uS-fM-Mtc" eventType="touchUpInside" id="BB6-Zo-2Vh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS1-hj-RH0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS1-hj-RH0">
                                 <rect key="frame" x="20" y="472" width="280" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -987,6 +994,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1529411765" green="0.71372549019999998" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ab3-5Z-JDO" firstAttribute="top" secondItem="yS1-hj-RH0" secondAttribute="bottom" constant="30" id="CCe-86-0FT"/>
+                            <constraint firstAttribute="centerX" secondItem="ab3-5Z-JDO" secondAttribute="centerX" id="Phh-VN-MZo"/>
+                            <constraint firstItem="h98-Oa-abW" firstAttribute="top" secondItem="ab3-5Z-JDO" secondAttribute="bottom" constant="20" id="VYF-S2-enT"/>
+                            <constraint firstAttribute="centerX" secondItem="yS1-hj-RH0" secondAttribute="centerX" id="bFu-P2-d1t"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="4Zv-o9-DH8"/>
                     <connections>
@@ -1016,7 +1029,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Odi-Wa-auC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="474"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ri-nh-LzW">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ri-nh-LzW">
                                 <rect key="frame" x="16" y="474" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Clear">
@@ -1028,6 +1041,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.4431372549" blue="0.34901960780000002" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1Ri-nh-LzW" secondAttribute="centerX" id="DXQ-Kf-W0x"/>
+                            <constraint firstItem="AYq-RK-KPY" firstAttribute="top" secondItem="1Ri-nh-LzW" secondAttribute="bottom" id="EzD-Hd-j03"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Draw" id="Jli-dC-4nL">
@@ -1220,7 +1237,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xnn-SX-iOK">
                                 <rect key="frame" x="0.0" y="64" width="320" height="474"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="touch where you want to add an annotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK7-Gf-AWF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="touch where you want to add an annotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK7-Gf-AWF">
                                 <rect key="frame" x="16" y="538" width="288" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -1228,6 +1245,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95294117649999999" green="0.4431372549" blue="0.34901960780000002" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="jK7-Gf-AWF" secondAttribute="centerX" id="9kC-dI-hVB"/>
+                            <constraint firstItem="3Yp-3G-PRV" firstAttribute="top" secondItem="jK7-Gf-AWF" secondAttribute="bottom" constant="2" id="y42-Di-mU4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Annotate" id="G9V-e9-xwH">
                         <barButtonItem key="backBarButtonItem" title="Back" id="KDi-7e-JH4"/>
@@ -1263,8 +1284,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="60B-kb-r9L"/>
-        <segue reference="2Zk-oY-4uL"/>
+        <segue reference="lB3-fJ-KUb"/>
+        <segue reference="PQm-7X-xqH"/>
         <segue reference="E3F-dd-8YY"/>
     </inferredMetricsTieBreakers>
 </document>
